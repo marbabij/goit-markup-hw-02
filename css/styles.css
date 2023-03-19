@@ -1,5 +1,12 @@
+:root{
+    --main-title-color: #FFFFFF;
+    --second-tittle-color: #2E2F42;
+    --third-tittle-color: #4d5ae5;
+}
 body {
     font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: #434455;
 }
 
 
@@ -10,8 +17,11 @@ body {
 }
 .header-navigation {
 }
+.studio-color {
+    color:var(--second-tittle-color);
+    }
 .header-logo  {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -19,11 +29,10 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color:var(--third-tittle-color);
+text-decoration: none;
 }
-.web-color{
-    color: #4D5AE5;
-}
+
 .header-list {
 
 }
@@ -44,7 +53,7 @@ color: #2E2F42;
     color: #2E2F42;
 }
 .header-address {
-   
+    font-style: normal;
 }
 .header-mail {
     font-weight: 400;
@@ -69,22 +78,30 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--main-title-color);
 }
 .first-button {
     background: #4D5AE5;
     font-weight: 500;
 font-size: 16px;
-line-height: 1.5x;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer;
+}
+.first-button:hover{
+    background-color: #404BBF;
+}
+.first-button:focus{
+    background-color: #404BBF;
 }
 .btn{
     background: #F4F4FD;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+cursor: pointer;
 }
 .btn:hover{
     background: #404BBF;
@@ -142,9 +159,11 @@ color: #2E2F42;
 .list {
 }
 .fourth {
+    background-color: #F4F4FD;
 }
  
 .fourth-list {
+    background-color: #FFFFFF;
 }
 .fourth-item {
 }
@@ -170,8 +189,7 @@ color: #434455;
 }
 
 .footer-logo  {
-    font-family: 'Raleway';
-font-style: normal;
+    font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -179,7 +197,13 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;}
+color: var(--third-tittle-color);
+text-decoration: none;
+}
+.studio-color{
+    color: #F4F4FD;
+    
+}
 
 .footer-text{
     font-weight: 400;
