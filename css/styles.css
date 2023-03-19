@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
+    background: var(--main-title-color);
     color: #434455;
 }
 
@@ -16,6 +16,15 @@ body {
 .header {
 }
 .header-navigation {
+}
+.link{
+    text-decoration: none;
+}
+.link:focus{
+    color: #404bbf;
+}
+.link :hover{
+   color: #404bbf;
 }
 .studio-color {
     color:var(--second-tittle-color);
@@ -168,6 +177,7 @@ color: #2E2F42;
 .fourth-item {
 }
 .fourth-name, .picture-tittle {
+    background-color: #FFFFFF;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -201,9 +211,8 @@ color: var(--third-tittle-color);
 text-decoration: none;
 }
 .studio-color{
-    color: #F4F4FD;
-    
-}
+    color: #f4f4fd;
+    }
 
 .footer-text{
     font-weight: 400;
