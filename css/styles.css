@@ -51,15 +51,23 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
-  
+ }
 
-}
 .header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.link{
+    text-decoration:none;
+}
+.header-link:hover{
+    color: #404bbf;
+}
+.header-link:focus{
+    color: #404bbf
 }
 .header-address {
     font-style: normal;
@@ -77,6 +85,18 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.header-mail:hover{
+    color: #404bbf;
+}
+.header-phone:hover{
+    color: #404bbf;
+}
+.header-mail:focus{
+    color: #404bbf;
+}
+.header-phone:focus{
+    color: #404bbf;
 }
 .first {
     background: #2E2F42;
