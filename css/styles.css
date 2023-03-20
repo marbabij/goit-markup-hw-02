@@ -8,14 +8,8 @@ body {
     background: var(--main-title-color);
     color: #434455;
 }
-
-
 .list{
     list-style: none;
-}
-.header {
-}
-.header-navigation {
 }
 .link{
     text-decoration: none;
@@ -39,7 +33,17 @@ color:var(--third-tittle-color);
 text-decoration: none;
 }
 .studio-color {
-    color:var(--text-color);
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--text-color);
+text-decoration: none;
+    
 }
 .header-list {
 
@@ -71,32 +75,21 @@ color: #2E2F42;
 .header-address {
     font-style: normal;
 }
-.header-mail {
+.header-contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;    
 }
-.header-phone {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.header-mail:hover{
+
+.header-contact:hover{
     color: #404bbf;
 }
-.header-phone:hover{
+.header-contact:focus{
     color: #404bbf;
 }
-.header-mail:focus{
-    color: #404bbf;
-}
-.header-phone:focus{
-    color: #404bbf;
-}
+
 .first {
     background: #2E2F42;
 }
