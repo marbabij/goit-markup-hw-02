@@ -6,7 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: var(--main-title-color);
-    
+    color: #434455;
 }
 .list{
     list-style: none;
@@ -20,7 +20,7 @@ body {
 .link :hover{
    color: #404bbf;
 }
-.studio-color{
+.studio-text{
     color: var(--text-color);    
 }
 .header-logo  {
