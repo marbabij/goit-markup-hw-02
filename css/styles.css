@@ -1,6 +1,6 @@
 :root{
     --main-title-color: #FFFFFF;
-    --color: #2E2F42;
+    --text-color: #2E2F42;
     --third-tittle-color: #4d5ae5;
 }
 body {
@@ -26,9 +26,6 @@ body {
 .link :hover{
    color: #404bbf;
 }
-.studio-color {
-    color:var(--color);
-    }
 .header-logo  {
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -41,7 +38,9 @@ text-transform: uppercase;
 color:var(--third-tittle-color);
 text-decoration: none;
 }
-
+.studio-color {
+    color:var(--text-color);
+}
 .header-list {
 
 }
