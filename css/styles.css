@@ -1,6 +1,6 @@
 :root{
     --main-title-color: #FFFFFF;
-    --second-tittle-color: #2E2F42;
+    --color: #2E2F42;
     --third-tittle-color: #4d5ae5;
 }
 body {
@@ -27,7 +27,7 @@ body {
    color: #404bbf;
 }
 .studio-color {
-    color:var(--second-tittle-color);
+    color:var(--color);
     }
 .header-logo  {
     font-family: 'Raleway', sans-serif;
@@ -110,6 +110,7 @@ letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
 .first-button {
+    font-family: "Roboto", sans-serif;
     background: #4D5AE5;
     font-weight: 500;
 font-size: 16px;
@@ -145,6 +146,7 @@ cursor: pointer;
     color: #FFFFFF;
 }
 .btn-text{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
