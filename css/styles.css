@@ -2,11 +2,16 @@
     --main-title-color: #FFFFFF;
     --text-color: #2E2F42;
     --third-tittle-color: #4d5ae5;
+    --body-color:#434455;
+    --focus-hover-color:#404bbf;
+    --footer-text-color:#F4F4FD;
+    --btn-color:#E7E9FC;
+
 }
 body {
     font-family: 'Roboto', sans-serif;
     background: var(--main-title-color);
-    color: #434455;
+    color: var(--body-color);
 }
 .list{
     list-style: none;
@@ -14,12 +19,13 @@ body {
 .link{
     text-decoration: none;
 }
-.link:focus{
-    color: #404bbf;
+.header-link:hover{
+color: var(--focus-hover-color);
 }
-.link :hover{
-   color: #404bbf;
+.header-link:focus{
+color: var(--focus-hover-color);
 }
+
 .studio-text{
     color: var(--text-color);    
 }
@@ -40,23 +46,17 @@ text-decoration: none;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--text-color);
  }
 .header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
 }
 .link{
     text-decoration:none;
-}
-.header-link:hover{
-    color: #404bbf;
-}
-.header-link:focus{
-    color: #404bbf
 }
 .header-address {
     font-style: normal;
@@ -66,18 +66,18 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;    
+    color: var(--text-color);    
 }
 
 .header-contact:hover{
-    color: #404bbf;
+    color: var(--focus-hover-color);
 }
 .header-contact:focus{
-    color: #404bbf;
+    color: var(--focus-hover-color);
 }
 
 .first {
-    background: #2E2F42;
+    background: var(--text-color);
 }
 .first-tittle {
     font-weight: 700;
@@ -89,39 +89,39 @@ color: var(--main-title-color);
 }
 .first-button {
     font-family: "Roboto", sans-serif;
-    background: #4D5AE5;
+    background: var(--third-tittle-color);
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--main-title-color);
 cursor: pointer;
 }
 .first-button:hover{
-    background-color: #404BBF;
+    background-color:var(--focus-hover-color);
 }
 .first-button:focus{
-    background-color: #404BBF;
+    background-color: var(--focus-hover-color);
 }
 .btn{
-    background: #F4F4FD;
-border: 1px solid #E7E9FC;
+    background: var(--footer-text-color);
+border: 1px solid var(--btn-color);
 border-radius: 4px;
 cursor: pointer;
 }
 .btn:hover{
-    background: #404BBF;
+    background: var(--focus-hover-color);
 }
 .btn-text:hover{
-    color: #FFFFFF;
+    color:var(--main-title-color);
 }
 .btn:focus{
-    background: #404BBF;
+    background: var(--focus-hover-color);
 }
 .btn-text:focus{
-    color: #FFFFFF;
+    color:var(--main-title-color);
 }
 .btn-text{
     font-family: "Roboto", sans-serif;
@@ -132,29 +132,21 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5;
-}
-.second {
-}
-.second-list {
-}
-.second-item {
+color:var(--third-tittle-color);
 }
 .second-category {
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--text-color);
 }
 .second-text {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
-}
-.third {
+color: var(--body-color);
 }
 .third-tittle, .fourth-tittle {
     font-weight: 700;
@@ -163,28 +155,26 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
-}
-.list {
+color: var(--text-color);
 }
 .fourth {
-    background-color: #F4F4FD;
+    background-color: var(--footer-text-color);
 }
  
 .fourth-list {
-    background-color: #FFFFFF;
+    background-color:var(--main-title-color);
 }
 .fourth-item {
-    background-color: #FFFFFF;
+    background-color: var(--main-title-color);
 }
 .fourth-name, .picture-tittle {
-    background-color: #FFFFFF;
+    background-color:var(--main-title-color);
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--text-color);
 }
 .fourth-text, .picture-text {
     font-weight: 400;
@@ -192,11 +182,11 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--body-color);
 
 }
 .footer{
-    background: #2E2F42;
+    background: var(--text-color);
 }
 
 .footer-logo  {
@@ -212,7 +202,7 @@ color: var(--third-tittle-color);
 text-decoration: none;
 }
 .studio-color{
-    color: #f4f4fd;
+    color: var(--footer-text-color);
     }
 
 .footer-text{
@@ -220,5 +210,5 @@ text-decoration: none;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--footer-text-color);
 }
